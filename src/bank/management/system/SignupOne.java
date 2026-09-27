@@ -33,7 +33,7 @@ public class SignupOne extends JFrame implements ActionListener {
         
         JLabel name = new JLabel("Name:");
         name.setFont(new Font("Raleway", Font.BOLD, 20));
-        name.setBounds(100, 140, 100, 30);
+        name.setBounds(100, 140, 200, 30);
         add(name);
         
         nameTextField = new JTextField();
@@ -205,6 +205,8 @@ public class SignupOne extends JFrame implements ActionListener {
                 String query = "insert into signup values('"+formno+"', '"+name+"', '"+fname+"', '"+dob+"', '"+gender+"', '"+email+"', '"+address+"', '"+city+"', '"+pin+"', '"+state+"')";
                 c.s.executeUpdate(query);
                 
+                setVisible(false);
+                new SignupTwo(formno).setVisible(true);
             }
         }
         catch (Exception e){
