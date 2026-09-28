@@ -20,20 +20,30 @@ A desktop-based Bank Management System developed using **Java Swing**, **JDBC**,
 * MySQL Database Connectivity
 * JDBC-based database operations
 * Multi-page account registration
+* Account details registration
+* Transaction interface
+ 
 
 ## 🔄 Application Flow
 
-Login Page
-↓
-Sign In / Sign Up
-↓
-Signup Page 1 – Personal Details
-↓
+Login
+  ↓
+Signin/Signup – Personal Details
+  ↓
 MySQL Database
-↓
-Signup Page 2 – Additional Details
-↓
+  ↓
+Signup Page 2
+  ↓
 MySQL Database
+  ↓
+Signup Page 3
+  ↓
+MySQL Database
+  ↓
+Transaction Page
+  ↓
+MySQL Database
+
 
 ## 📸 Screenshots
 
@@ -63,34 +73,38 @@ MySQL Database
 
 **Aastha Kashyap**
 
-                    
                     ┌─────────────────┐
                     │   Login Page    │
                     └────────┬────────┘
                              │
-                 ┌───────────┴───────────┐
-                 │                       │
-             SIGN IN                 SIGN UP
-                 │                       │
-                 │                       ▼
-                 │              ┌─────────────────┐
-                 │              │ Signup Page 1   │
-                 │              │ Personal Details│
-                 │              └────────┬────────┘
-                 │                       │
-                 │                      Next
-                 │                       │
-                 │                       ▼
-                 │              ┌─────────────────┐
-                 │              │ Signup Page 2   │
-                 │              │ Additional Info │
-                 │              └────────┬────────┘
-                 │                       │
-                 │                       ▼
-                 │                 MySQL Database
-                 │
-                 ▼
-             ATM / Banking
-             Operations
-
-             
+                         SIGN UP
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │  Signup Page 1  │
+                    │ Personal Details│
+                    └────────┬────────┘
+                             │
+                            Next
+                             ▼
+                    ┌─────────────────┐
+                    │  Signup Page 2  │
+                    │ Additional Info │
+                    └────────┬────────┘
+                             │
+                            Next
+                             ▼
+                    ┌─────────────────┐
+                    │  Signup Page 3  │
+                    │ Account Details │
+                    └────────┬────────┘
+                             │
+                            Next
+                             ▼
+                    ┌─────────────────┐
+                    │ Transaction Page│
+                    │ Banking Services│
+                    └────────┬────────┘
+                             │
+                             ▼
+                       MySQL Database
