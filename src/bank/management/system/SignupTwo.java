@@ -6,7 +6,6 @@ import javax.swing.*;
 
 public class SignupTwo extends JFrame implements ActionListener {
     
-    long random;
     JTextField pan, aadhar;
     JButton next;
     JRadioButton syes, sno, eyes, eno;
@@ -29,11 +28,6 @@ public class SignupTwo extends JFrame implements ActionListener {
         name.setBounds(100, 140, 100, 30);
         add(name);
         
-//        nameTextField = new JTextField();
-//        nameTextField.setFont(new Font("Raleway", Font.BOLD, 14));
-//        nameTextField.setBounds(300, 140, 400, 30);
-//        add(nameTextField);
-        
         String valReligion[] = {"Hindu","Muslim", "Sikh", "Christian", "Other"};
         religion = new JComboBox(valReligion);
         religion.setBounds(300, 140, 400, 30);
@@ -50,12 +44,6 @@ public class SignupTwo extends JFrame implements ActionListener {
         category.setBounds(300, 190, 400, 30);
         category.setBackground(Color.WHITE);
         add(category);
-        
-        
-//        fnameTextField = new JTextField();
-//        fnameTextField.setFont(new Font("Raleway", Font.BOLD, 14));
-//        fnameTextField.setBounds(300, 190, 400, 30);
-//        add(fnameTextField);
 
         JLabel dob = new JLabel("Income:");
         dob.setFont(new Font("Raleway", Font.BOLD, 20));
@@ -84,11 +72,6 @@ public class SignupTwo extends JFrame implements ActionListener {
         education.setBackground(Color.WHITE);
         add(education);
 
-//        emailTextField = new JTextField();
-//        emailTextField.setFont(new Font("Raleway", Font.BOLD, 14));
-//        emailTextField.setBounds(300, 340, 400, 30);
-//        add(emailTextField);
-
         JLabel maritalstatus = new JLabel("Occupation:");
         maritalstatus.setFont(new Font("Raleway", Font.BOLD, 20));
         maritalstatus.setBounds(100, 390, 200, 30);
@@ -100,26 +83,6 @@ public class SignupTwo extends JFrame implements ActionListener {
         occupation.setBackground(Color.WHITE);
         add(occupation);
         
-//        married = new JRadioButton("Married");
-//        married.setBounds(300, 390, 100, 30);
-//        married.setBackground(Color.WHITE);
-//        add(married);
-//        
-//        unmarried = new JRadioButton("Unmarried");
-//        unmarried.setBounds(450, 390, 100, 30);
-//        unmarried.setBackground(Color.WHITE);
-//        add(unmarried);
-        
-//        JRadioButton other = new JRadioButton("Other");
-//        other.setBounds(630, 390, 100, 30);
-//        other.setBackground(Color.WHITE);
-//        add(other);
-//
-//        ButtonGroup maritalgroup = new ButtonGroup();
-//        maritalgroup.add(married);
-//        maritalgroup.add(unmarried);
-//        maritalgroup.add(other);
-
         JLabel address = new JLabel("PAN Number:");
         address.setFont(new Font("Raleway", Font.BOLD, 20));
         address.setBounds(100, 440, 200, 30);
@@ -158,12 +121,6 @@ public class SignupTwo extends JFrame implements ActionListener {
         ButtonGroup maritalgroup = new ButtonGroup();
         maritalgroup.add(syes);
         maritalgroup.add(sno);
-        
-
-//        stateTextField = new JTextField();
-//        stateTextField.setFont(new Font("Raleway", Font.BOLD, 14));
-//        stateTextField.setBounds(300, 540, 400, 30);
-//        add(stateTextField);
 
         JLabel pincode = new JLabel("Existing Account:");
         pincode.setFont(new Font("Raleway", Font.BOLD, 20));
@@ -184,12 +141,6 @@ public class SignupTwo extends JFrame implements ActionListener {
         emaritalgroup.add(eyes);
         emaritalgroup.add(eno);
 
-//        pincodeTextField = new JTextField();
-//        pincodeTextField.setFont(new Font("Raleway", Font.BOLD, 14));
-//        pincodeTextField.setBounds(300, 590, 400, 30);
-//        add(pincodeTextField);
-
-        
         next = new JButton("Next");
         next.setBackground(Color.BLACK);
         next.setForeground(Color.WHITE);
@@ -207,7 +158,6 @@ public class SignupTwo extends JFrame implements ActionListener {
     }
     
     public void actionPerformed(ActionEvent ae) {
-        String formno = "" + random; 
         String sreligion = (String)religion.getSelectedItem();
         String scategory = (String)category.getSelectedItem();
         String sincome = (String)income.getSelectedItem();
@@ -235,7 +185,8 @@ public class SignupTwo extends JFrame implements ActionListener {
             String query = "insert into signuptwo values('"+formno+"', '"+sreligion+"', '"+scategory+"', '"+sincome+"', '"+seducation+"', '"+soccupation+"', '"+span+"', '"+saadhar+"', '"+existingaccount+"', '"+seniorcitizen+"')";
             c.s.executeUpdate(query);
             
-            
+            setVisible(false);
+            new SignupThree(formno).setVisible(true);
             
         }
         catch (Exception e){
