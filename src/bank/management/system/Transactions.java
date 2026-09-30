@@ -68,7 +68,7 @@ public class Transactions extends JFrame implements ActionListener{
         setVisible(true);
     }
     
-    public void actionPerformed(ActionEvent ae) {
+    public void actionPerformed(ActionEvent ae){
         if(ae.getSource() == exit) {
             System.exit(0);
         } else if(ae.getSource() == deposit) {
@@ -79,7 +79,10 @@ public class Transactions extends JFrame implements ActionListener{
             new Withdrawl(pinnumber).setVisible(true);
         } else if(ae.getSource() == fastcash) {
             setVisible(false);
-            new fastcash(pinnumber).setVisible(true);
+            new FastCash(pinnumber).setVisible(true);
+        } else if(ae.getSource() == pinchange) {
+            setVisible(false);
+            new PinChange(pinnumber).setVisible(true);
         }
     }
     
