@@ -49,11 +49,11 @@ MySQL Database
 
 ### Login Page
 
-![Login Page](screenshots/login-page.png)
+[Login Page]("Screenshot_loginpage.png")
 
 ### Signup Page 1
 
-![Signup Page 1](screenshots/signup-page-1.png)
+![Signup Page 1](screenshot_signup.png)
 
 ### Signup Page 2
 
