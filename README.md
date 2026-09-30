@@ -49,11 +49,11 @@ MySQL Database
 
 ### Login Page
 
-[Login Page]("C:\Users\Manoj\OneDrive\Pictures\Screenshots\Screenshot 2026-09-30 204220.png")
+[Login Page]("Screenshot_loginpage.png")
 
 ### Signup Page 1
 
-![Signup Page 1](screenshots/signup-page-1.png)
+![Signup Page 1](screenshot_signup.png)
 
 ### Signup Page 2
 
