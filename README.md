@@ -53,8 +53,7 @@ MySQL Database
 
 ### Signup Page 1
 
-("![Signup Page 1](screenshots/Screenshot_signup.png)")
-
+![Signup Page 1](screenshots/Screenshot_signup.png)
 ### Signup Page 2
 
 ![Signup Page 2](screenshots/signup-page-2.png)
