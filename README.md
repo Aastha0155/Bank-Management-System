@@ -106,9 +106,7 @@ MySQL Database
 <img src="src/screenshots/atm-flowchart.png" alt="ATM Flowchart" width="500">
 
 ## 2. New Account / Signup Flow
-<p align="center">
-  <img src="src/screenshots/signup-flowchart.png" alt="Signup Flow" width="300">
-</p>
+<img src="src/screenshots/signup-flowchart.png" alt="Signup Flow" width="300">
 
 ## 3. Database Connection
 <img src="src/screenshots/Conn.png" alt="Database Connection" width="500">
