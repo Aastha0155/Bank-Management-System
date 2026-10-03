@@ -96,12 +96,13 @@ MySQL Database
 
 **Aastha Kashyap**
 
-##1. Main ATM System Flowchart
-![ATM Flowchart](screenshots/atm-flowchart.png)
+## 1. Main ATM System Flowchart
 
-##2. New Account / Signup Flow
-![Signup Flow](screenshots/signup-flowchart).png)
-         
+![ATM Flowchart](src/screenshots/atm-flowchart.png)
+
+## 2. New Account / Signup Flow
+
+![Signup Flow](src/screenshots/signup-flowchart.png)     
 
 ##3. Database Connection
 Java Application
