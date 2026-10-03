@@ -97,10 +97,10 @@ MySQL Database
 **Aastha Kashyap**
 
 ##1. Main ATM System Flowchart
-![ATM Flowchart](screenshots/mermaid-diagram%20%281%29.png)
+![ATM Flowchart](screenshots/atm-flowchart.png)
 
 ##2. New Account / Signup Flow
-![Signup Flow](screenshots/mermaid-diagram(2).png)
+![Signup Flow](screenshots/signup-flowchart).png)
          
 
 ##3. Database Connection
