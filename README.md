@@ -91,10 +91,7 @@ MySQL Database
 5. Update the database credentials in `Conn.java`.
 6. Add the required JCalendar and MySQL Connector/J libraries.
 7. Run `Login.java`.
-
-## 👩‍💻 Author
-
-**Aastha Kashyap**
+   
 
 ## 1. Main ATM System Flowchart
 
@@ -106,25 +103,11 @@ MySQL Database
 
 ## 3. Database Connection
 
-```mermaid
-flowchart TD
-    A[Java Application] --> B[Conn.java]
-    B --> C[JDBC]
-    C --> D[MySQL Database]
-    D --> E[Store / Read Account Data]
-    D --> F[Store / Read Transaction Data]
-
-## 3. Database Connection
-
 ![Database Connection](src/screenshots/Conn.png)
-<h3>3. Database Connection</h3>
-
-<img src="src/screenshots/Conn.png" width="500">
 
 ### Flow
 
 **Java Application → Conn.java → JDBC → MySQL Database → Account & Transaction Data**
 
-This will look much cleaner and professional on GitHub.
 
                 
