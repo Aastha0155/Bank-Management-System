@@ -49,39 +49,49 @@ MySQL Database
 
 ### 1. Login Page
 
-![Login Page](screenshots/Screenshot_loginpage.png)
+<img src="screenshots/Screenshot_loginpage.png" alt="Login Page" width="400">
 
 ### 2. Signup Page 1
 
-![Signup Page 1](screenshots/Screenshot_signupone.png)
+<img src="screenshots/Screenshot_signupone.png" alt="Signup Page 1" width="400">
 
 ### 3. Signup Page 2
-![Signup Page 2](screenshots/Screenshot_signup_two.png)
+
+<img src="screenshots/Screenshot_signup_two.png" alt="Signup Page 2" width="400">
 
 ### 4. Signup Page 3
-![Signup Page 3](screenshots/Screenshot_signup_three.png)
+
+<img src="screenshots/Screenshot_signup_three.png" alt="Signup Page 3" width="400">
 
 ### 5. Transactions
-![Transactions](screenshots/Screenshot_transaction.png)
+
+<img src="screenshots/Screenshot_transaction.png" alt="Transactions" width="400">
 
 ### 6. Deposit
-![Deposit](screenshots/Screenshot_deposit.png)
+
+<img src="screenshots/Screenshot_deposit.png" alt="Deposit" width="400">
 
 ### 7. Withdrawal
-![Withdrawal](screenshots/Screenshot_withdrawl.png)
-![Withdrawal](screenshots/Screenshot_u_withdrawl.png)
+
+<img src="screenshots/Screenshot_withdrawl.png" alt="Withdrawal" width="400">
+
+<img src="screenshots/Screenshot_u_withdrawl.png" alt="Withdrawal Confirmation" width="400">
 
 ### 8. Fast Cash
-![Fast Cash](screenshots/Screenshot_fastcash.png)
+
+<img src="screenshots/Screenshot_fastcash.png" alt="Fast Cash" width="400">
 
 ### 9. Balance Enquiry
-![Balance Enquiry](screenshots/Screenshot_balance.png)
+
+<img src="screenshots/Screenshot_balance.png" alt="Balance Enquiry" width="400">
 
 ### 10. Mini Statement
-![Mini Statement](screenshots/Screenshot_ministatement.png)
+
+<img src="screenshots/Screenshot_ministatement.png" alt="Mini Statement" width="400">
 
 ### 11. Pin Change
-![Pin Change](screenshots/Screenshot_pinchange.png)
+
+<img src="screenshots/Screenshot_pinchange.png" alt="Pin Change" width="400">
 ## ⚙️ How to Run
 
 1. Clone or download this repository.
@@ -98,7 +108,7 @@ MySQL Database
 
 ## 2. New Account / Signup Flow
 
-<img src="src/screenshots/signup-flowchart.png" alt="Signup Flow" width="400">  
+<img src="src/screenshots/signup-flowchart.png" alt="Signup Flow" width="300">  
 
 ## 3. Database Connection
 <img src="src/screenshots/Conn.png" alt="Database Connection" width="500">
