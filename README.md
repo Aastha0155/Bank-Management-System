@@ -98,7 +98,7 @@ MySQL Database
 
 ## 2. New Account / Signup Flow
 
-<img src="src/screenshots/signup-flowchart.png" alt="Signup Flow" width="500">  
+<img src="src/screenshots/signup-flowchart.png" alt="Signup Flow" width="400">  
 
 ## 3. Database Connection
 <img src="src/screenshots/Conn.png" alt="Database Connection" width="500">
