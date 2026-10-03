@@ -102,6 +102,13 @@ MySQL Database
 ![Signup Flow](src/screenshots/signup-flowchart.png)     
 
 ## 3. Database Connection
+## 3. Database Connection
+
+<img src="src/screenshots/Conn.png" alt="Database Connection" width="500">
+
+### Flow
+
+Java Application → Conn.java → JDBC → MySQL Database
 
 ![Database Connection](src/screenshots/Conn.png)
 
