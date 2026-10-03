@@ -92,25 +92,16 @@ MySQL Database
 6. Add the required JCalendar and MySQL Connector/J libraries.
 7. Run `Login.java`.
    
-
 ## 1. Main ATM System Flowchart
 
-![ATM Flowchart](src/screenshots/atm-flowchart.png)
+<img src="src/screenshots/atm-flowchart.png" alt="ATM Flowchart" width="400">
 
 ## 2. New Account / Signup Flow
 
-![Signup Flow](src/screenshots/signup-flowchart.png)     
+<img src="src/screenshots/signup-flowchart.png" alt="Signup Flow" width="500">  
 
 ## 3. Database Connection
-## 3. Database Connection
-
 <img src="src/screenshots/Conn.png" alt="Database Connection" width="500">
-
-### Flow
-
-Java Application → Conn.java → JDBC → MySQL Database
-
-![Database Connection](src/screenshots/Conn.png)
 
 ### Flow
 
