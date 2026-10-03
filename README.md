@@ -104,9 +104,6 @@ MySQL Database
 ## 3. Database Connection
 
 ![Database Connection](src/screenshots/Conn.png)
-## 3. Database Connection
-
-![Database Connection](src/screenshots/Conn.png)
 
 ### Flow
 
