@@ -96,54 +96,12 @@ MySQL Database
 
 **Aastha Kashyap**
 
-##1. Main ATM System Flowchar
-![Withdrawal](screenshots/Screenshot/mermaid-diagram.png)
+##1. Main ATM System Flowchart
+![ATM Flowchart](screenshots/mermaid-diagram(1).png)
 
 ##2. New Account / Signup Flow
-
-Your signup part can be shown separately:
-                 ┌───────────────┐
-                 │     START     │
-                 └───────┬───────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │  Signup One     │
-                │ Personal Details│
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │  Signup Two     │
-                │ Additional Info │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ Signup Three    │
-                │ Account Details │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ Save Details in │
-                │ MySQL Database  │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ Account Created │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ Return to Login │
-                └────────┬────────┘
-                         │
-                         ▼
-                    ┌─────────┐
-                    │   END   │
-                    └─────────┘
+![Signup Flow](screenshots/mermaid-diagram(2).png)
+         
 
 ##3. Database Connection
 Java Application
