@@ -47,17 +47,41 @@ MySQL Database
 
 ## 📸 Screenshots
 
-### Login Page
+### 1. Login Page
 
 ![Login Page](screenshots/Screenshot_loginpage.png)
 
-### Signup Page 1
+### 2. Signup Page 1
 
 ![Signup Page 1](screenshots/Screenshot_signupone.png)
-### Signup Page 2
 
-![Signup Page 2](screenshots/signup-page-2.png)
+### 3. Signup Page 2
+![Signup Page 2](screenshots/Screenshot_signup_two.png)
 
+### 4. Signup Page 3
+![Signup Page 3](screenshots/Screenshot_signup_three.png)
+
+### 5. Transactions
+![Transactions](screenshots/Screenshot_transaction.png)
+
+### 6. Deposit
+![Deposit](screenshots/Screenshot_deposit.png)
+
+### 7. Withdrawal
+![Withdrawal](screenshots/Screenshot_withdrawl.png)
+![Withdrawal](screenshots/Screenshot_u_withdrawl.png)
+
+### 8. Fast Cash
+![Fast Cash](screenshots/Screenshot_fastcash.png)
+
+### 9. Balance Enquiry
+![Balance Enquiry](screenshots/Screenshot_balance.png)
+
+### 10. Mini Statement
+![Mini Statement](screenshots/Screenshot_ministatement.png)
+
+### 11. Pin Change
+![Pin Change](screenshots/Screenshot_pinchange.png)
 ## ⚙️ How to Run
 
 1. Clone or download this repository.
@@ -72,78 +96,8 @@ MySQL Database
 
 **Aastha Kashyap**
 
-##1. Main ATM System Flowchart
-
-                    ┌───────────────┐
-                    │     START     │
-                    └───────┬───────┘
-                            │
-                            ▼
-                 ┌─────────────────────┐
-                 │   Login Page        │
-                 │ Card Number + PIN   │
-                 └──────────┬──────────┘
-                            │
-                            ▼
-                    ┌──────────────┐
-                    │ Credentials  │
-                    │    Valid?    │
-                    └──────┬───────┘
-                       No  │  Yes
-                    ┌──────┘    └────────┐
-                    ▼                     ▼
-             ┌─────────────┐      ┌──────────────┐
-             │ Show Error   │      │ Transactions │
-             │ & Try Again  │      │    Menu      │
-             └──────┬──────┘      └──────┬───────┘
-                    │                    │
-                    └───────┐     ┌──────┘
-                            │     │
-                            ▼     ▼
-                    ┌────────────────────┐
-                    │ Select Operation   │
-                    └─────────┬──────────┘
-                              │
-          ┌───────────────────┼────────────────────┐
-          │                   │                    │
-          ▼                   ▼                    ▼
-   ┌────────────┐      ┌────────────┐      ┌──────────────┐
-   │  Deposit   │      │ Withdrawal │      │ Fast Cash    │
-   └─────┬──────┘      └─────┬──────┘      └──────┬───────┘
-         │                   │                    │
-         └───────────────────┼────────────────────┘
-                             │
-          ┌──────────────────┼───────────────────┐
-          │                  │                   │
-          ▼                  ▼                   ▼
- ┌────────────────┐  ┌────────────────┐  ┌────────────────┐
- │Balance Enquiry │  │Mini Statement  │  │  Pin Change    │
- └───────┬────────┘  └───────┬────────┘  └───────┬────────┘
-         │                   │                   │
-         └───────────────────┼───────────────────┘
-                             │
-                             ▼
-                    ┌──────────────────┐
-                    │ Transaction      │
-                    │ Completed        │
-                    └────────┬─────────┘
-                             │
-                             ▼
-                    ┌──────────────────┐
-                    │ Return to Menu?  │
-                    └───────┬──────────┘
-                       Yes  │  No
-                       ┌────┘  └───────┐
-                       ▼               ▼
-                 Transactions      ┌─────────┐
-                    Menu           │  EXIT   │
-                                   └────┬────┘
-                                        │
-                                        ▼
-                                  ┌───────────┐
-                                  │    END    │
-                                  └───────────┘
-
+##1. Main ATM System Flowchar
+![Withdrawal](screenshots/Screenshot/mermaid-diagram.png)
 
 ##2. New Account / Signup Flow
 
