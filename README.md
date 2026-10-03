@@ -94,11 +94,11 @@ MySQL Database
    
 ## 1. Main ATM System Flowchart
 
-<img src="src/screenshots/atm-flowchart.png" alt="ATM Flowchart" width="400">
+<img src="src/screenshots/atm-flowchart.png" alt="ATM Flowchart" width="500">
 
 ## 2. New Account / Signup Flow
 
-<img src="src/screenshots/signup-flowchart.png" alt="Signup Flow" width="500">  
+<img src="src/screenshots/signup-flowchart.png" alt="Signup Flow" width="400">  
 
 ## 3. Database Connection
 <img src="src/screenshots/Conn.png" alt="Database Connection" width="500">
