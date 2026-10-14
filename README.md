@@ -1,6 +1,16 @@
 # 🏦 Bank Management System
 
-A desktop-based Bank Management System developed using **Java Swing**, **JDBC**, and **MySQL**.
+A desktop-based **Bank Management System built using Java Swing, JDBC, and MySQL** that simulates basic ATM operations and customer account registration.
+
+The application provides a graphical interface for user authentication, account registration, and banking transactions, with database connectivity for storing and retrieving account information.
+
+## 🎯 Project Objectives
+
+- Develop a user-friendly desktop banking application.
+- Implement customer registration and login functionality.
+- Connect Java applications to MySQL using JDBC.
+- Provide an interface for common ATM operations.
+- Organize banking workflows using Java Swing and object-oriented programming.
 
 ## 🛠️ Technologies Used
 
@@ -13,15 +23,25 @@ A desktop-based Bank Management System developed using **Java Swing**, **JDBC**,
 
 ## ✨ Features
 
-* ATM-style Login Page
-* User Sign Up
-* Personal Details Registration
-* Additional Details Registration
-* MySQL Database Connectivity
-* JDBC-based database operations
-* Multi-page account registration
-* Account details registration
-* Transaction interface
+### User Authentication & Registration
+- ATM-style login interface.
+- New customer registration through multiple signup pages.
+- Personal and additional customer details registration.
+- Database connectivity for registration and login operations.
+
+### Banking Operations
+- Deposit money.
+- Withdraw money.
+- Fast Cash withdrawal.
+- Balance Enquiry.
+- Mini Statement.
+- PIN Change.
+
+### Technical Features
+- Java Swing graphical user interface.
+- JDBC integration with MySQL.
+- Event-driven interaction through buttons and forms.
+- Multi-page navigation between banking screens.
  
 
 ## 🔄 Application Flow
